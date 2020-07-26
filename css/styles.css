@@ -6,6 +6,8 @@
 }
 .services {
     background-image: url(../IP3/assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 100%;
     color: white;
 }
 .flexbox {
@@ -18,6 +20,17 @@
 }
 .contacts {
     background-image: url(../IP3/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 100%;
+}
+#name {
+    background-color: transparent;
+}
+#email {
+    background-color: transparent;
+}
+#message {
+    background-color: transparent;
 }
 .socials {
     display: flex;
