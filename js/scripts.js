@@ -1,4 +1,13 @@
 $(document).ready(function(){
     $("#container").css({textAlign:'center',});
     $("h").css({fontWeight:'bold',})
+    $(".iconDesign").click(function(){
+        $("#designDescription").toggle();
+    })
+    $(".iconDevelopment").click(function(){
+        $("#developmentDescription").toggle();
+    })
+    $(".iconManagement").click(function(){
+        $("#managementDescription").toggle();
+    })
 })
