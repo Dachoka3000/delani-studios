@@ -1,8 +1,12 @@
 $(document).ready(function(){
     $("#container").css({textAlign:'center',});
+    $("h1").css({
+        fontWeight:'bold',
+        fontSize: '0.75cm',
+    })
     $("h").css({
         fontWeight:'bold',
-        fontSize:'larger',
+        fontSize:'0.5cm',
         textAlign:'center',
     })
     $(".iconDesign").click(function(){
