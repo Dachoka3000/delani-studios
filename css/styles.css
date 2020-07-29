@@ -64,6 +64,7 @@ body {
     top: 1px;
     left: 1px;
     border: 3px solid white;
+    display: none;
 }
 .contacts {
     background-image: url(../images/contactus.jpg);
