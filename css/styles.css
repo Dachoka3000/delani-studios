@@ -5,8 +5,9 @@ body {
     background-image: url(../images/logobackground.jpg);
     background-size: cover;
     padding-top: 17%;
-    padding-bottom: 17%;
+    padding-bottom: 10%;
     height: 100%;
+    width: 100%;
     color: white;
 }
 .about-us {
@@ -74,22 +75,29 @@ body {
     padding-bottom: 10%;
     width: 100%;
     color: white;
+    align-items: center;
 }
 #name {
     background-color: transparent;
     color: white;
-    width: 30%;
+    width: 40%;
+    margin: 10px;
+    border: 1px solid white;
 }
 #email {
     background-color: transparent;
     color: white;
-    width: 30%;
+    width: 40%;
+    border: 1px solid white;
+
 }
 #message {
     background-color: transparent;
     color: white;
     height: 200px;
     width: 80%;
+    border: 1px solid white;
+
 }
 ::placeholder {
     color: white;
